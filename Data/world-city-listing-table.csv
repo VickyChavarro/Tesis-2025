@@ -1,0 +1,803 @@
+population;city;country
+37115000;Tokyo;Japan
+33807400;Delhi;India
+29867900;Shanghai;China
+23935700;Dhaka;Bangladesh
+22806700;Sao Paulo;Brazil
+22623900;Cairo;Egypt
+22505300;Mexico City;Mexico
+22189100;Beijing;China
+21673100;Mumbai;India
+18967500;Osaka;Japan
+17773900;Chongqing;China
+17648600;Karachi;Pakistan
+17032300;Kinshasa;DR Congo
+16536000;Lagos;Nigeria
+16047400;Istanbul;Turkey
+15618300;Buenos Aires;Argentina
+15570800;Kolkata;India
+14942000;Manila;Philippines
+14590100;Guangzhou;China
+14470900;Tianjin;China
+14407100;Lahore;Pakistan
+14008300;Bangalore;India
+13824300;Rio de Janeiro;Brazil
+13311900;Shenzhen;China
+12712300;Moscow;Russia
+12053700;Chennai;India
+11658200;Bogota;Colombia
+11436000;Jakarta;Indonesia
+11361900;Lima;Peru
+11276700;Paris;France
+11233900;Bangkok;Thailand
+11068900;Hyderabad;India
+10004800;Seoul;South Korea
+9947550;Nanjing;China
+9828110;Chengdu;China
+9748030;London;United Kingdom
+9651030;Luanda;Angola
+9616010;Tehran;Iran
+9567660;Ho Chi Minh City;Vietnam
+9556880;Nagoya;Japan
+9013840;Xi-an;China
+8854440;Ahmedabad;India
+8850850;Wuhan;China
+8815630;Kuala Lumpur;Malaysia
+8419840;Hangzhou;China
+8350620;Suzhou;China
+8330530;Surat;India
+8161230;Dar es Salaam;Tanzania
+8097282;New York City;United States
+7921130;Baghdad;Iraq
+7830380;Shenyang;China
+7820550;Riyadh;Saudi Arabia
+7725860;Hong Kong;Hong Kong
+7704940;Foshan;China
+7675150;Dongguan;China
+7345850;Pune;India
+6950950;Santiago;Chile
+6938010;Haerbin;China
+6783240;Madrid;Spain
+6542070;Khartoum;Sudan
+6431430;Toronto;Canada
+6324350;Johannesburg;South Africa
+6300410;Belo Horizonte;Brazil
+6217490;Dalian;China
+6119200;Singapore;Singapore
+6104600;Qingdao;China
+6014890;Zhengzhou;China
+5940700;Ji nan Shandong;China
+5866700;Abidjan;Ivory Coast
+5711920;Barcelona;Spain
+5709680;Yangon;Myanmar
+5703630;Addis Ababa;Ethiopia
+5696130;Alexandria;Egypt
+5581710;Saint Petersburg;Russia
+5541170;Nairobi;Kenya
+5513610;Chittagong;Bangladesh
+5499680;Guadalajara;Mexico
+5478080;Fukuoka;Japan
+5477090;Ankara;Turkey
+5431800;Hanoi;Vietnam
+5315600;Melbourne;Australia
+5195360;Monterrey;Mexico
+5184900;Sydney;Australia
+5027980;Changsha;China
+5005960;Urumqi;China
+4977830;Cape Town;South Africa
+4943210;Jiddah;Saudi Arabia
+4935270;Brasilia;Brazil
+4861080;Kunming;China
+4802450;Changchun;China
+4728380;Kabul;Afghanistan
+4727290;Hefei;China
+4681770;Yaounde;Cameroon
+4659830;Ningbo;China
+4656520;Shantou;China
+4534880;New Taipei;Taiwan
+4495730;Tel Aviv;Israel
+4490730;Kano;Nigeria
+4454130;Shijiazhuang;China
+4341640;Montreal;Canada
+4331970;Rome;Italy
+4308510;Jaipur;India
+4305130;Recife;Brazil
+4291460;Nanning;China
+4246400;Fortaleza;Brazil
+4243960;Kozhikode;India
+4239870;Porto Alegre;Brazil
+4226780;Taiyuan Shanxi;China
+4203110;Douala;Cameroon
+4190830;Ekurhuleni;South Africa
+4184920;Malappuram;India
+4137390;Medellin;Colombia
+4085500;Changzhou;China
+4050830;Kampala;Uganda
+4048670;Antananarivo;Madagascar
+4038210;Lucknow;India
+4025740;Abuja;Nigeria
+4016040;Nanchang;China
+4009530;Wenzhou;China
+4007470;Xiamen;China
+4004320;Ibadan;Nigeria
+3998750;Fuzhou Fujian;China
+3994980;Salvador;Brazil
+3950410;Casablanca;Morocco
+3925210;Tangshan Hebei;China
+3903480;Kumasi;Ghana
+3852460;Curitiba;Brazil
+3830680;Bekasi;Indonesia
+3800190;Faisalabad;Pakistan
+3795936;Los Angeles;United States
+3661450;Guiyang;China
+3636550;Port Harcourt;Nigeria
+3605240;Thrissur;India
+3587400;Santo Domingo;Dominican Republic
+3576870;Berlin;Germany
+3568830;Asuncion;Paraguay
+3540460;Dakar;Senegal
+3507050;Kochi;India
+3498740;Wuxi;China
+3477420;Busan;South Korea
+3458440;Campinas;Brazil
+3415530;Mashhad;Iran
+3407810;Sanaa;Yemen
+3394340;Puebla;Mexico
+3393380;Indore;India
+3365910;Lanzhou;China
+3358930;Ouagadougou;Burkina Faso
+3353600;Kuwait City;Kuwait
+3324220;Lusaka;Zambia
+3286140;Kanpur;India
+3262130;Durban;South Africa
+3193270;Guayaquil;Ecuador
+3183140;Pyongyang;North Korea
+3160630;Milan;Italy
+3159630;Guatemala City;Guatemala
+3154590;Athens;Greece
+3133300;Depok;Indonesia
+3120340;Izmir;Turkey
+3106340;Nagpur;India
+3088750;Surabaya;Indonesia
+3086000;Handan;China
+3083720;Coimbatore;India
+3071050;Huaian;China
+3060170;Port-au-Prince;Haiti
+3051060;Zhongshan;China
+3051020;Dubai;United Arab Emirates
+3050570;Bamako;Mali
+3022860;Mbuji-Mayi;DR Congo
+3020230;Kiev;Ukraine
+3014610;Lisbon;Portugal
+2994540;Weifang;China
+2991730;Caracas;Venezuela
+2984150;Thiruvananthapuram;India
+2952120;Algiers;Algeria
+2935530;Shizuoka;Japan
+2933960;Lubumbashi;DR Congo
+2890430;Cali;Colombia
+2890420;Goiania;Brazil
+2889900;Pretoria;South Africa
+2882170;Shaoxing;China
+2861690;Incheon;South Korea
+2834510;Yantai;China
+2828440;Zibo;China
+2827610;Huizhou;China
+2811760;Manchester;United Kingdom
+2766330;Taipei;Taiwan
+2726820;Mogadishu;Somalia
+2724570;Brazzaville;Republic of the Congo
+2721160;Accra;Ghana
+2714220;Bandung;Indonesia
+2685360;Damascus;Syria
+2684810;Birmingham;United Kingdom
+2682510;Vancouver;Canada
+2674340;Toluca de Lerdo;Mexico
+2666740;Luoyang;China
+2660950;Sapporo;Japan
+2638159;Chicago;United States
+2633660;Tashkent;Uzbekistan
+2633240;Patna;India
+2624860;Bhopal;India
+2570980;Tangerang;Indonesia
+2555720;Nantong;China
+2536450;Brisbane;Australia
+2510670;Tunis;Tunisia
+2480550;Peshawar;Pakistan
+2479070;Medan;Indonesia
+2479060;Gujranwala;Pakistan
+2464160;Baku;Azerbaijan
+2443690;Hohhot;China
+2436620;San Juan;Puerto Rico
+2432180;Belem;Brazil
+2430390;Rawalpindi;Pakistan
+2422340;Agra;India
+2406850;Manaus;Brazil
+2405660;Kannur;India
+2402480;Beirut;Lebanon
+2400830;Maracaibo;Venezuela
+2397410;Liuzhou;China
+2385110;Visakhapatnam;India
+2381240;Baotou;China
+2373360;Vadodara;India
+2373300;Barranquilla;Colombia
+2352680;Phnom Penh;Cambodia
+2341430;Sendai;Japan
+2338720;Taoyuan;Taiwan
+2332530;Xuzhou;China
+2319119;Houston;United States
+2317650;Aleppo;Syria
+2297220;Tijuana;Mexico
+2294590;Esfahan;Iran
+2294300;Nashik;India
+2290780;Vijayawada;India
+2252690;Amman;Jordan
+2250100;Putian;China
+2205410;Multan;Pakistan
+2196820;Grande Vitoria;Brazil
+2195260;Wuhu Anhui;China
+2184560;Mecca;Saudi Arabia
+2181940;Kollam;India
+2180030;Naples;Italy
+2179930;Daegu;South Korea
+2178600;Conakry;Guinea
+2175100;Yangzhou;China
+2152520;Havana;Cuba
+2152230;Taizhou Zhejiang;China
+2149700;Baoding;China
+2143490;Perth;Australia
+2132180;Brussels;Belgium
+2120050;Linyi Shandong;China
+2115510;Bursa;Turkey
+2096980;Rajkot;India
+2064730;Minsk;Belarus
+2062880;Hiroshima;Japan
+2056650;Haikou;China
+2044370;Daqing;China
+2042730;Lome;Togo
+2035630;Lianyungang;China
+2034330;Yancheng Jiangsu;China
+2015740;Panama City;Panama
+2015210;Almaty;Kazakhstan
+2013570;Semarang;Indonesia
+2011960;Hyderabad;Pakistan
+2007260;Valencia;Venezuela
+1991460;Davao City;Philippines
+1990490;Vienna;Austria
+1989200;Rabat;Morocco
+1988440;Ludhiana;India
+1986670;Quito;Ecuador
+1972560;Benin City;Nigeria
+1965570;La Paz;Bolivia
+1965110;Baixada Santista;Brazil
+1942470;West Yorkshire;United Kingdom
+1938920;Can Tho;Vietnam
+1930370;Zhuhai;China
+1924440;Leon de los Aldamas;Mexico
+1920730;Quanzhou;China
+1915040;Matola;Mozambique
+1913670;Datong;China
+1872200;Sharjah;United Arab Emirates
+1871910;Madurai;India
+1871110;Raipur;India
+1856640;Adana;Turkey
+1855730;Santa Cruz;Bolivia
+1852670;Palembang;Indonesia
+1847690;Mosul;Iraq
+1840040;Cixi;China
+1835400;Meerut;India
+1833010;Gaziantep;Turkey
+1826140;La Laguna;Mexico
+1806150;Batam;Indonesia
+1805730;Turin;Italy
+1799450;Warsaw;Poland
+1797470;Jiangmen;China
+1789050;Varanasi;India
+1787280;Hamburg;Germany
+1781360;Montevideo;Uruguay
+1780390;Budapest;Hungary
+1774400;Lyon;France
+1772320;Xiangyang;China
+1767520;Bucharest;Romania
+1758100;Yichang;China
+1757700;Yinchuan;China
+1742750;Shiraz;Iran
+1738720;Kananga;DR Congo
+1737500;Srinagar;India
+1735360;Monrovia;Liberia
+1731860;Tiruppur;India
+1730520;Jamshedpur;India
+1726330;Suqian;China
+1725280;Aurangabad;India
+1723730;Qinhuangdao;China
+1719600;Stockholm;Sweden
+1713450;Anshan;China
+1708150;Glasgow;United Kingdom
+1705080;Xining;China
+1704930;Makassar;Indonesia
+1702010;Hengyang;China
+1701510;Novosibirsk;Russia
+1699360;Ulaanbaatar;Mongolia
+1694910;Onitsha;Nigeria
+1693700;Jilin;China
+1693380;Anyang;China
+1692770;Auckland;New Zealand
+1678030;Tabriz;Iran
+1676170;Muscat;Oman
+1665020;Calgary;Canada
+1662607;Phoenix;United States
+1662410;Qiqihaer;China
+1655620;N-Djamena;Chad
+1635710;Marseille;France
+1625940;Cordoba;Argentina
+1625320;Jodhpur;India
+1621640;Kathmandu;Nepal
+1613040;Rosario;Argentina
+1609260;Tegucigalpa;Honduras
+1604080;Ciudad Juarez;Mexico
+1603200;Harare;Zimbabwe
+1603010;Karaj;Iran
+1598980;Medina;Saudi Arabia
+1595960;Jining Shandong;China
+1593280;Abu Dhabi;United Arab Emirates
+1584510;Munich;Germany
+1584240;Ranchi;India
+1581700;Daejon;South Korea
+1568120;Zhangjiakou;China
+1567620;Edmonton;Canada
+1563020;Mandalay;Myanmar
+1559080;Gaoxiong;Taiwan
+1558470;Kota;India
+1556410;Natal;Brazil
+1552150;Nouakchott;Mauritania
+1551000;Jabalpur;India
+1538600;Huainan;China
+1536020;Grande Sao Luis;Brazil
+1534080;Asansol;India
+1533828;Philadelphia;United States
+1532970;Yekaterinburg;Russia
+1532900;Gwangju;South Korea
+1525750;Yiwu;China
+1520630;Chaozhou;China
+1513974;San Antonio;United States
+1508850;Gwalior;India
+1508040;Ganzhou;China
+1499600;Homs;Syria
+1496260;Niamey;Niger
+1495220;Mombasa;Kenya
+1493350;Allahabad;India
+1485160;Basra;Iraq
+1483510;Kisangani;DR Congo
+1482460;San Jose;Costa Rica
+1480470;Amritsar;India
+1477600;Taizhou Jiangsu;China
+1472710;Chon Buri;Thailand
+1470920;Jiaxing;China
+1465930;Weihai;China
+1463650;Hai Phong;Vietnam
+1451570;Ottawa;Canada
+1443350;Zurich;Switzerland
+1441910;Taian Shandong;China
+1436820;Queretaro;Mexico
+1435120;Joao Pessoa;Brazil
+1434460;Kaifeng;China
+1430690;Cochabamba;Bolivia
+1429940;Konya;Turkey
+1428800;Liuyang;China
+1427890;Liuan;China
+1426580;Rizhao;China
+1418980;Kharkiv;Ukraine
+1414530;Dhanbad;India
+1412710;Nanchong;China
+1410790;Dongying;China
+1410700;Belgrade;Serbia
+1406090;Zunyi;China
+1399310;Zhanjiang;China
+1396630;Bucaramanga;Colombia
+1393450;Uyo;Nigeria
+1391200;Copenhagen;Denmark
+1388996;San Diego;United States
+1387380;Shiyan;China
+1381860;Taizhong;Taiwan
+1380720;Bareilly;India
+1379370;Pointe-Noire;Republic of the Congo
+1379280;Adelaide;Australia
+1378230;Suweon;South Korea
+1378010;Mwanza;Tanzania
+1376450;Mianyang Sichuan;China
+1376150;Samut Prakan;Thailand
+1375980;Maceio;Brazil
+1373800;Qom;Iran
+1372400;Antalya;Turkey
+1361990;Joinville;Brazil
+1360780;Tengzhou;China
+1355560;Yingkou;China
+1352910;Ad-Dammam;Saudi Arabia
+1349990;Suzhou;China
+1348850;Tanger;Morocco
+1347560;Freetown;Sierra Leone
+1346810;Helsinki;Finland
+1346020;Aligarh;India
+1335970;Moradabad;India
+1334530;Pekan Baru;Indonesia
+1333930;Maoming;China
+1333100;Lilongwe;Malawi
+1329300;Porto;Portugal
+1327950;Prague;Czech Republic
+1324110;Astana;Kazakhstan
+1320780;Jieyang;China
+1317280;Fushun Liaoning;China
+1316460;Mysore;India
+1314920;Abomey-Calavi;Benin
+1314780;Ruian;China
+1313310;Fes;Morocco
+1312630;Port Elizabeth;South Africa
+1309900;Florianopolis;Brazil
+1309370;Ahvaz;Iran
+1308470;Bukavu;DR Congo
+1302753;Dallas;United States
+1300990;Nnewi;Nigeria
+1296230;Kazan;Russia
+1296060;Jinhua;China
+1292130;San Luis Potosi;Mexico
+1290230;Baoji;China
+1289670;Durg-Bhilainagar;India
+1289250;Bhubaneswar;India
+1287950;Kigali;Rwanda
+1287540;Sofia;Bulgaria
+1285750;Pingdingshan Henan;China
+1284550;Dublin;Ireland
+1282760;Puning;China
+1279540;Chifeng;China
+1277240;Zhuzhou;China
+1277050;Bujumbura;Burundi
+1275400;Zhenjiang Jiangsu;China
+1272870;Liupanshui;China
+1267870;Barquisimeto;Venezuela
+1266790;Islamabad;Pakistan
+1264860;Huaibei;China
+1258120;Tasikmalaya;Indonesia
+1256550;Maracay;Venezuela
+1256160;Bogor;Indonesia
+1253230;Da Nang;Vietnam
+1250300;Nanyang Henan;China
+1250300;Nizhniy Novgorod;Russia
+1249380;Xiangtan Hunan;China
+1247180;Pizhou;China
+1244980;Tiruchirappalli;India
+1243880;Chelyabinsk;Russia
+1242320;Mendoza;Argentina
+1241150;Luohe;China
+1240160;Xiongan;China
+1239700;Chandigarh;India
+1239650;Merida;Mexico
+1238380;Jinzhou;China
+1237550;Benxi;China
+1233580;Binzhou;China
+1230410;Aba;Nigeria
+1228770;Chiang Mai;Thailand
+1225590;Bazhong;China
+1221500;Quetta;Pakistan
+1221450;Kaduna;Nigeria
+1218070;Guilin;China
+1207860;Saharanpur;India
+1205430;Hubli-Dharwad;India
+1201400;Yueqing;China
+1199460;Guwahati;India
+1196980;Mexicali;Mexico
+1194760;Salem;India
+1193250;Maputo;Mozambique
+1192440;Tripoli;Libya
+1186480;Haifa;Israel
+1186230;Bandar Lampung;Indonesia
+1185050;Bobo-Dioulasso;Burkina Faso
+1181820;Amsterdam;Netherlands
+1181020;Shimkent;Kazakhstan
+1180680;Omsk;Russia
+1179300;Aguascalientes;Mexico
+1176620;Hargeysa;Somalia
+1173100;Krasnoyarsk;Russia
+1160840;Xinxiang;China
+1159370;Siliguri;India
+1159260;Wenling;China
+1154450;Samara;Russia
+1150860;Zaozhuang;China
+1149010;Cologne;Germany
+1147970;Yongin;South Korea
+1146790;Ufa;Russia
+1146340;Fuyang;China
+1145220;Ikorodu;Nigeria
+1143000;Bien Hoa;Vietnam
+1142680;Jalandhar;India
+1142540;Panjin;China
+1140260;Ma'anshan;China
+1140170;Cuernavaca;Mexico
+1139640;Rostov-on-Don;Russia
+1135340;Chihuahua;Mexico
+1131720;Fuzhou Jiangxi;China
+1131230;Tshikapa;DR Congo
+1130890;Shangrao;China
+1128180;Samarinda;Indonesia
+1127720;Bishkek;Kyrgyzstan
+1127600;Zhaoqing;China
+1123380;San Salvador;El Salvador
+1122040;Yichun Jiangxi;China
+1119790;Chenzhou;China
+1119530;Sekondi Takoradi;Ghana
+1116500;Leshan;China
+1116190;Aden;Yemen
+1114080;Goyang;South Korea
+1113330;Diyarbakir;Turkey
+1111750;Asmara;Eritrea
+1108360;Dezhou;China
+1108070;Jingzhou Hubei;China
+1107120;Managua;Nicaragua
+1107000;Johor Bahru;Malaysia
+1101610;Kermanshah;Iran
+1101310;Nyala;Sudan
+1100870;Oslo;Norway
+1100390;Kirkuk;Iraq
+1097540;Yerevan;Armenia
+1096460;Cartagena;Colombia
+1093690;Changshu;China
+1091810;Huzhou;China
+1091740;Xuchang;China
+1088130;Solapur;India
+1085200;Lille;France
+1084820;Mersin;Turkey
+1084470;Tbilisi;Georgia
+1084120;Perm;Russia
+1083720;Voronezh;Russia
+1075240;Denpasar;Indonesia
+1070750;Toulouse;France
+1070620;Blantyre-Limbe;Malawi
+1070120;Aracaju;Brazil
+1067170;Marrakech;Morocco
+1066900;Qujing;China
+1064170;Yueyang;China
+1063710;Ilorin;Nigeria
+1062570;Tampico;Mexico
+1061090;Antwerp;Belgium
+1059660;Teresina;Brazil
+1055920;Guiping;China
+1055600;Warangal;India
+1055370;Changwon;South Korea
+1052850;Padang;Indonesia
+1050320;Saltillo;Mexico
+1049490;Xintai;China
+1045000;Cancun;Mexico
+1042610;Cebu City;Philippines
+1039230;San Miguel de Tucuman;Argentina
+1034500;Hamah;Syria
+1032770;Acapulco de Juarez;Mexico
+1031420;Warri;Nigeria
+1025510;Kayseri;Turkey
+1024520;Chengde;China
+1022920;Owerri;Nigeria
+1021920;Rotterdam;Netherlands
+1021580;Pingxiang Jiangxi;China
+1019600;Zhucheng;China
+1017780;Songkhla;Thailand
+1016580;Valparaiso;Chile
+1016400;Dehradun;India
+1013670;Nonthaburi;Thailand
+1013190;Leiyang;China
+1012790;Dushanbe;Tajikistan
+1012580;Nampula;Mozambique
+1011120;Misratah;Libya
+1010550;Krasnodar;Russia
+1009730;Laiwu;China
+1009590;Bordeaux;France
+1008990;Jixi Heilongjiang;China
+1008220;San Pedro Sula;Honduras
+1007600;Odesa;Ukraine
+1004250;Jiujiang;China
+1003020;Lubango;Angola
+1002460;Morelia;Mexico
+1001160;Jos;Nigeria
+999374;Sylhet;Bangladesh
+998146;Agadir;Morocco
+997164;Jacksonville;United States
+996756;Fort Worth;United States
+993352;Volgograd;Russia
+992414;Mudanjiang;China
+990310;Guigang;China
+987814;Najaf;Iraq
+985965;Bangui;Central African Republic
+984567;Austin;United States
+983707;Rajshahi;Bangladesh
+983694;Hengshui;China
+983097;Jerusalem;Israel
+980054;Zhangzhou;China
+979303;Xinyu;China
+978614;Linfen;China
+978317;Tianmen;China
+978202;Ciudad Guayana;Venezuela
+977081;Zamboanga City;Philippines
+976606;Yangjiang;China
+974518;Taiz;Yemen
+972485;Cucuta;Colombia
+971296;Arequipa;Peru
+970907;Liling;China
+968288;Antipolo;Philippines
+968070;Veracruz;Mexico
+967627;Reynosa;Mexico
+965483;Khulna;Bangladesh
+963160;Deyang;China
+962126;Pathum Thani;Thailand
+959784;Bengbu;China
+959250;Jiangyin;China
+959202;Southampton;United Kingdom
+958118;Villahermosa;Mexico
+956976;Baishan;China
+956433;San Jose;United States
+951808;Nice;France
+950768;Oran;Algeria
+947734;West Rand;South Africa
+947634;Cabinda;Angola
+947460;Umuahia;Nigeria
+944877;Bogra;Bangladesh
+944812;Bahawalpur;Pakistan
+942159;Seongnam;South Korea
+940205;Guntur;India
+936766;Dnipro;Ukraine
+934936;Campo Grande;Brazil
+933392;Malang;Indonesia
+932892;Londrina;Brazil
+932648;Dandong;China
+930620;Changzhi;China
+929961;Hermosillo;Mexico
+924670;Bhiwandi;India
+923715;La Plata;Argentina
+923164;Charlotte;United States
+922871;Liverpool;United Kingdom
+921601;Ashgabat;Turkmenistan
+920916;Concepcion;Chile
+919280;Puducherry;India
+919026;Changde;China
+918675;Bergamo;Italy
+918218;Firozabad;India
+917639;Erbil;Iraq
+916862;Tyumen;Russia
+916632;Trujillo;Peru
+916238;Liaoyang;China
+915823;Shangqiu;China
+915427;Columbus;United States
+914300;Ulsan;South Korea
+913075;Tuxtla Gutierrez;Mexico
+906765;Kuerle;China
+905868;Soshanguve;South Africa
+904070;Xingtai;China
+903910;Culiacan;Mexico
+902621;Quzhou;China
+901820;Cherthala;India
+893107;Huangshi;China
+889767;Fuxin;China
+885882;Lokoja;Nigeria
+884753;Hufuf-Mubarraz;Saudi Arabia
+883920;Libreville;Gabon
+883326;Yongzhou;China
+882986;Xinghua;China
+882209;Donetsk;Ukraine
+881480;Yibin;China
+876665;Indianapolis;United States
+875552;Enugu;Nigeria
+875392;Tainan;Taiwan
+873268;Xinyang;China
+872424;Ipoh;Malaysia
+870714;Luzhou;China
+870502;Banghazi;Libya
+870201;Maiduguri;Nigeria
+869585;Yangquan;China
+869575;Huaihua;China
+869479;Xiaogan;China
+858672;Tianshui;China
+856339;Bunia;DR Congo
+854946;Bozhou;China
+853635;Kottayam;India
+852608;Zhuji;China
+851399;Kunshan;China
+851061;Quebec City;Canada
+850233;Palermo;Italy
+849251;Winnipeg;Canada
+848443;Orumiyeh;Iran
+848002;Eskisehir;Turkey
+843207;Benguela;Angola
+841928;Jincheng;China
+839770;Valencia;Spain
+838928;Heze;China
+837687;Saratov;Russia
+837660;Nellore;India
+836344;Huludao;China
+835850;Zanzibar;Tanzania
+835805;Barcelona Puerto La Cruz;Venezuela
+835802;Bikaner;India
+834639;Haicheng;China
+831360;Gebze;Turkey
+830623;Taixing;China
+830004;Liaocheng;China
+829361;Zhumadian;China
+828712;Newcastle upon Tyne;United Kingdom
+827967;Langfang;China
+826919;Bucheon;South Korea
+823199;Sulaimaniya;Iraq
+822863;Xalapa;Mexico
+822471;Malanje;Angola
+821765;Anqiu;China
+821435;Sorocaba;Brazil
+821154;Gaomi;China
+820886;Dasmarinas;Philippines
+820297;Cagayan de Oro City;Philippines
+818761;Hanchuan;China
+818037;Meishan;China
+816848;Bologna;Italy
+815869;Ar-Rayyan;Qatar
+814980;Thessaloniki;Greece
+814491;Muzaffarnagar;India
+813379;Kayamkulam;India
+813078;Nottingham;United Kingdom
+811446;Nakhon Ratchasima;Thailand
+810450;Danyang;China
+810149;Ibb;Yemen
+808263;Amravati;India
+808079;Jiaozuo;China
+802900;Vereeniging;South Africa
+801634;Gorakhpur;India
+800636;Gaza;Palestine
+800529;Frankfurt;Germany
+795987;Anqing;China
+795916;Niigata;Japan
+795808;Oshogbo;Nigeria
+795777;Linhai;China
+794279;Shaoguan;China
+794143;Erduosi-Ordoss;China
+793545;Merca;Somalia
+792925;Bur Sa'id;Egypt
+792350;Kitwe;Zambia
+791839;Yan'an;China
+789558;Cuttack;India
+788478;San Francisco;United States
+786843;Hamilton;Canada
+786197;Zaria;Nigeria
+785125;Banjarmasin;Indonesia
+783041;Dengzhou;China
+783020;Belgaum;India
+781925;Malegaon;India
+781875;Goma;DR Congo
+779684;Zigong;China
+778628;Qingyuan;China
+777193;Yuncheng;China
+776404;Shaoyang;China
+775672;Yanji;China
+775455;Tirupati;India
+775097;Maturin;Venezuela
+774356;Yuxi;China
+773141;Akure;Nigeria
+772756;Tongliao;China
+770962;Sialkot;Pakistan
+770032;Tongling;China
+769396;Krakow;Poland
+768822;Ansan;South Korea
+768512;Wuzhou;China
+767532;Dazhou;China
+765887;Suining Sichuan;China
+763312;Mangalore;India
+761903;Jiamusi;China
+759915;Seattle;United States
+759157;Al-Hudaydah;Yemen
+757915;Sargodha;Pakistan
+757823;Nay Pyi Taw;Myanmar
+757506;Tamale;Ghana
+757137;Sao Jose dos Campos;Brazil
+757035;Bacoor;Philippines
+756344;Dongtai;China
+755752;Zhangjiagang;China
+755577;Nanded Waghala;India
+754446;Xianyang Shaanxi;China
+753708;Amara;Iraq
+753392;Zarqa;Jordan
+751493;Bhavnagar;India
+751303;Sheffield;United Kingdom
+751297;Huambo;Angola
+750174;Ribeirao Preto;Brazil
+750036;Panzhihua;China
