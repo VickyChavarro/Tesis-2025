@@ -16,9 +16,6 @@ country_annotation <- country_annotation %>%
 # Unir las tablas por el nombre del país
 final_table <- left_join(world.city.listing.table, country_annotation %>% select(country, continent), by = "country")
 
-# Guardar el resultado en un nuevo archivo CSV
-write.csv(final_table, "C:/Users/victo/Downloads/enriched-world-city-listing.csv", row.names = FALSE)
-
 # Mostrar la nueva tabla en RStudio para verificar
 View(final_table)
 
@@ -60,6 +57,8 @@ print(paste("Número de valores nulos en la columna de continente después de la
 
 # Mostrar el DataFrame actualizado
 View(final_table_updated)
+
+
 
 ################################### JUPYTER PARA TRANSLATION Y BACK TRANSLATION ##########################################################}
 
@@ -157,4 +156,147 @@ print_mismatches(df, "city", "city_from_Japanese_to_English", "Japanese")
 # Ejecutar la función para el Vietnamita
 print_mismatches(df, "city", "city_from_Vietnamese_to_English", "Vietnamese")
 
+# Función para calcular la tasa de error real
+calculate_real_error_rate <- function(total_cities, real_errors) {
+  error_rate <- (real_errors / total_cities) * 100
+  return(error_rate)
+}
+
+# Contar el total de ciudades traducidas
+total_cities <- nrow(df)  # Asumiendo que todas las ciudades en el dataset fueron traducidas
+
+# Número de errores reales identificados manualmente
+real_errors <- 100
+
+# Calcular la tasa de error real
+error_rate_indonesian <- calculate_real_error_rate(total_cities, real_errors)
+cat("Real Error Rate for Indonesian:", error_rate_indonesian, "%\n")
+
+################################################# REPRESENTATIVIDAD ########################################################################
+
+# Asegurarse de que la columna de población es numérica
+final_table_updated$population <- as.numeric(gsub(",", "", final_table_updated$population))
+
+# Calcular la suma total de la población
+total_population <- sum(final_table_updated$population, na.rm = TRUE)
+
+# Imprimir el resultado
+print(paste("La población total de todas las ciudades es:", total_population))
+
+enriched.world.city.listing.updated <- read.csv("C:/Users/victo/Downloads/enriched-world-city-listing-updated.csv")
+View(enriched.world.city.listing.updated)
+
+country_annotation_final <- read.csv("C:/Users/victo/Downloads/country_annotation_final.csv")
+View(country_annotation_final)
+
+
+# Contar cuántas ciudades por país están representadas
+city_count_by_country <- table(enriched.world.city.listing.updated$country)
+
+# Ver los resultados
+print(city_count_by_country)
+
+# Contar el número de países únicos representados
+number_of_countries <- length(unique(enriched.world.city.listing.updated$country))
+
+# Imprimir el número de países
+cat("Número total de países representados:", number_of_countries, "\n")
+
+# Contar cuántas ciudades por continente están representadas
+city_count_by_continent <- table(enriched.world.city.listing.updated$continent)
+
+# Ver los resultados
+print(city_count_by_continent)
+
+library(dplyr)
+
+# Obtener una muestra aleatoria de 10 ciudades
+sample_cities <- sample_n(enriched.world.city.listing.updated, 10)
+
+# Ver la muestra
+View(sample_cities)
+
+
+# Unir las dos bases de datos usando 'country' en la primera base de datos y 'name' en la segunda
+combined_data <- merge(enriched.world.city.listing.updated, country_annotation_final, by.x = "country", by.y = "name", all.x = TRUE)
+
+# Ver los primeros registros de la base de datos combinada para verificar la unión
+View(combined_data)
+
+
+# Asegurarse de que la columna de población es numérica
+combined_data$population <- as.numeric(as.character(combined_data$population))
+combined_data$Population <- as.numeric(as.character(combined_data$Population))  # Asegurarse de que la población total del país también es numérica
+
+# Seleccionar al azar 5 países para revisar
+set.seed(123)  # Para reproducibilidad
+sample_countries <- sample(unique(combined_data$country), 5)
+
+# Filtrar datos para esos países y calcular la suma de las poblaciones de ciudades
+library(dplyr)
+population_check <- combined_data %>%
+  filter(country %in% sample_countries) %>%
+  group_by(country) %>%
+  summarise(
+    total_city_population = sum(population, na.rm = TRUE),
+    total_country_population = first(Population)  # Usar la columna correcta de la población total del país
+  )
+
+# Añadir una columna para verificar si la suma de las ciudades es menor o igual a la población total del país
+population_check <- population_check %>%
+  mutate(check = ifelse(total_city_population <= total_country_population, "OK", "Error"))
+
+# Mostrar los resultados
+print(population_check)
+
+
+library(tidyverse)
+library(stringr)
+
+# Asumiendo que tu DataFrame se llama combined_data y la columna se llama languages
+combined_data$languages <- str_extract_all(combined_data$languages, "\\w+")
+
+# Expandir la lista de idiomas en filas separadas
+languages_expanded <- combined_data %>%
+  unnest(languages)
+
+# Contar la cantidad de idiomas únicos en todo el DataFrame
+unique_languages_count <- languages_expanded %>%
+  distinct(languages) %>%
+  count()
+
+# Ver la cantidad de idiomas únicos
+print(unique_languages_count)
+
+# Opcional: Ver qué idiomas son y cuántas ciudades tienen cada idioma
+language_distribution <- languages_expanded %>%
+  group_by(languages) %>%
+  summarise(count = n(), .groups = 'drop') %>%
+  arrange(desc(count))
+
+# Mostrar la distribución de idiomas
+print(language_distribution)
+
+# Suponiendo que language_distribution es tu tibble actual de idiomas
+
+# Lista de idiomas que quieres verificar
+idiomas_a_verificar <- c("English", "Spanish", "Chinese", "Arabic", "Indonesian", 
+                         "Swahili", "Tamil", "Turkish", "Finnish", "Japanese", 
+                         "Korean", "Vietnamese", "Thai")
+
+# Verificar la presencia de cada idioma y asignar OK o NO
+verificacion_idiomas <- sapply(idiomas_a_verificar, function(idioma) {
+  if(idioma %in% language_distribution$languages) {
+    "OK"
+  } else {
+    "NO"
+  }
+})
+
+# Crear un data frame para mostrar los resultados
+resultado_verificacion <- data.frame(Idioma = idiomas_a_verificar, 
+                                     Presencia = verificacion_idiomas)
+
+# Imprimir el resultado
+print(resultado_verificacion)
 
