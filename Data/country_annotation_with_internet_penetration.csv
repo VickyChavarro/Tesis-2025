@@ -1,0 +1,202 @@
+"code","name","continent","languages","Population","B_COUNTRY_ALPHA","trust_index","corruption_index","competition_index","migration_index","openness_index","HDI","% internet penetration"
+"us","United States","North America","['English']",345426571,"USA",2.08994607087827,7.76540832049307,3.19106317411402,3.33320493066256,1.72033898305085,0.927,97.13
+"do","Dominican Republic","North Americ","['Spanish']",11427557,"DOM",NA,NA,NA,NA,NA,0.766,84.38
+"ca","Canada","North America","['English','French']",39742430,"CAN",1.97278911564626,6.73369835739174,4.17720258835241,3.74116475858636,1.9284718765555,0.935,94
+"hn","Honduras","North America","['Spanish']",10825703,"HND",NA,NA,NA,NA,NA,0.624,59.71
+"cr","Costa Rica","North America","['Spanish']",5129910,"CRI",NA,NA,NA,NA,NA,0.806,85.13
+"pa","Panama","North America","['Spanish']",4515577,"PAN",NA,NA,NA,NA,NA,0.82,73.61
+"sv","El Salvador","North America","['Spanish']",6338193,"SLV",NA,NA,NA,NA,NA,0.674,62.89
+"gt","Guatemala","North America","['Spanish']",18406359,"GTM",2.37835638730675,9.13751017087063,4.63628966639544,2.53213995117982,1.6699755899105,0.629,54.4
+"mx","Mexico","North America","['Spanish']",130861007,"MEX",2.65699789393069,8.85755313038484,4.35381964388283,2.9213095921884,1.84353819643883,0.781,81.18
+"ni","Nicaragua","North America","['Spanish']",6916140,"NIC",2.74694444444444,7.61666666666667,5.5375,2.63333333333333,1.76716666666667,0.669,61.05
+"ad","Andorra","Europe","['Catalan']",81.938,"AND",2.14359229747676,5.59860557768924,3.13247011952191,4.00099601593625,1.96513944223108,0.884,94.49
+"ae","United Arab Emirates","Asia","['Arabic']",11027129,"ARE",NA,NA,NA,NA,NA,0.937,100
+"af","Afghanistan","Asia","['Pashto', 'Uzbek', 'Turkmen']",42647492,"AFG",NA,NA,NA,NA,NA,0.462,18.4
+"al","Albania","Europe","['Albanian']",2791765,"ALB",NA,NA,NA,NA,NA,0.789,83.14
+"am","Armenia","Asia","['Armenian', 'Russian']",2973840,"ARM",2.34641591714364,7.34096484055601,2.92150449713818,3.16353229762878,1.5869174161897,0.786,77.03
+"ao","Angola","Africa","['Portuguese']",37885849,"AGO",NA,NA,NA,NA,NA,0.591,39.29
+"ar","Argentina","South America","['Spanish', 'Guarani']",45696159,"ARG",1.94699235626454,8.45363908275174,4.57128614157527,2.95513459621137,1.9617148554337,0.849,89.23
+"as","American Samoa","Oceania","['English', 'Samoan']",46.765,"ASM",NA,NA,NA,NA,NA,NA,NA
+"at","Austria","Europe","['German']",9120813,"AUT",NA,NA,NA,NA,NA,0.926,95.33
+"au","Australia","Oceania","['English']",26713205,"AUS",1.9002574002574,6.55543298400441,3.51406508549366,2.66133480419195,1.93237727523442,0.946,94.88
+"az","Azerbaijan","Asia","['Azerbaijani']",10336577,"AZE",NA,NA,NA,NA,NA,0.76,88
+"ba","Bosnia and Herzegovina","Europe","['Bosnian', 'Croatian', 'Serbian']",3164253,"BIH",NA,NA,NA,NA,NA,0.779,83.38
+"bd","Bangladesh","Asia","['Bengali']",173562364,"BGD",2.31166666666667,7.74583333333333,3.43666666666667,3.15833333333333,1.46533333333333,0.67,44.5
+"be","Belgium","Europe","['Dutch', 'French', 'German']",11738763,"BEL",NA,NA,NA,NA,NA,0.942,94.63
+"bf","Burkina Faso","Africa","['French', 'Peul']",23548781,"BFA",NA,NA,NA,NA,NA,0.438,19.92
+"bg","Bulgaria","Europe","['Bulgarian']",6757689,"BGR",NA,NA,NA,NA,NA,0.799,80.39
+"bh","Bahrain","Asia","['Arabic']",1607049,"BHR",NA,NA,NA,NA,NA,0.888,100
+"bi","Burundi","Africa","['French', 'Kirundi']",14047786,"BDI",NA,NA,NA,NA,NA,0.42,11.28
+"bj","Benin","Africa","['French']",14462724,"BEN",NA,NA,NA,NA,NA,0.504,33.76
+"bn","Brunei","Asia","['Malay']",462.721,"BRN",NA,NA,NA,NA,NA,0.823,98.97
+"bo","Bolivia","South America","['Spanish', 'Aymara', 'Quechua']",12413315,"BOL",2.7783422028705,8.49298500241897,4.9685534591195,2.8955007256894,1.41325592646347,0.698,73.28
+"br","Brazil","South America","['Portuguese']",211998573,"BRA",2.32349602724177,9.35641316685585,3.54540295119183,2.74574347332577,1.96049943246311,0.76,84.15
+"bt","Bhutan","Asia","['Dzongkha']",791.524,"BTN",NA,NA,NA,NA,NA,0.681,86.84
+"bw","Botswana","Africa","['English', 'Tswana']",2521139,"BWA",NA,NA,NA,NA,NA,0.708,77.33
+"by","Belarus","Europe","['Belarusian', 'Russian']",9056696,"BLR",NA,NA,NA,NA,NA,0.801,91.51
+"cd","Democratic Republic of the Congo","Africa","['French', 'Lingala', 'Kongo', 'Swahili', 'Luba-Katanga']",109276265,"COD",NA,NA,NA,NA,NA,0.481,NA
+"cf","Central African Republic","Africa","['French', 'Sango']",5330690,"CAF",NA,NA,NA,NA,NA,0.387,10.58
+"cg","Republic of the Congo","Africa","['French', 'Lingala']",6332961,"COG",NA,NA,NA,NA,NA,0.593,36.25
+"ch","Switzerland","Europe","['German', 'French', 'Italian']",8921981,"CHE",NA,NA,NA,NA,NA,0.967,97.34
+"ci","Ivory Coast","Africa","['French']",31934230,"CIV",NA,NA,NA,NA,NA,0.534,38.41
+"ck","Cook Islands","Oceania","['English']",13.729,"COK",NA,NA,NA,NA,NA,NA,NA
+"cl","Chile","South America","['Spanish']",19764771,"CHL",2.2935,7.037,4.448,2.79,1.8956,0.86,94.12
+"cm","Cameroon","Africa","['English', 'French']",29123744,"CMR",NA,NA,NA,NA,NA,0.587,43.86
+"cn","China","Asia","['Chinese']",1419321278,"CHN",2.34853974527888,6.45223978919631,3.35836627140975,3.44137022397892,1.5935441370224,0.788,77.48
+"co","Colombia","South America","['Spanish']",52886363,"COL",2.64166666666667,9.47828947368421,4.60131578947368,2.44210526315789,1.85105263157895,0.758,72.8
+"cv","Cape Verde","Africa","['Portuguese']",524877,"CPV",NA,NA,NA,NA,NA,0.661,72.1
+"cy","Cyprus","Europe","['Greek', 'Turkish', 'Armenian']",1358282,"CYP",2.23616666666667,7.905,3.667,2.519,1.7078,0.907,91.22
+"cz","Czech Republic","Europe","['Czech', 'Slovak']",10735859,"CZE",2.17861111111111,6.975,3.675,3.2175,1.72183333333333,0.895,85.99
+"de","Germany","Europe","['German']",84552242,"DEU",1.93106457242583,5.40837696335079,3.38547120418848,2.85013089005236,1.9479057591623,0.95,92.48
+"dj","Djibouti","Africa","['French', 'Arabic']",1168722,"DJI",NA,NA,NA,NA,NA,0.515,65.03
+"dk","Denmark","Europe","['Danish']",5977412,"DNK",NA,NA,NA,NA,NA,0.952,98.78
+"dz","Algeria","Africa","['Arabic']",46814308,"DZA",NA,NA,NA,NA,NA,0.745,71.24
+"ec","Ecuador","South America","['Spanish']",18135478,"ECU",2.79541666666667,8.86916666666667,4.81916666666667,2.65583333333333,1.84733333333333,0.765,72.69
+"ee","Estonia","Europe","['Estonian']",1360546,"EST",NA,NA,NA,NA,NA,0.899,93.18
+"eg","Egypt","Africa","['Arabic']",116538258,"EGY",2.16569444444444,8.23083333333333,2.40833333333333,1.98166666666667,1.68083333333333,0.728,72.2
+"eh","Western Sahara","Africa","['Spanish']",590.506,"ESH",NA,NA,NA,NA,NA,NA,NA
+"er","Eritrea","Africa","['Tigrinya', 'Arabic', 'English']",3535603,"ERI",NA,NA,NA,NA,NA,0.493,26.59
+"es","Spain","Europe","['Spanish', 'Basque', 'Catalan', 'Galician', 'Occitan']",47910526,"ESP",NA,NA,NA,NA,NA,0.911,95.45
+"et","Ethiopia","Africa","['Amharic']",132059767,"ETH",2.23387533875339,8.36666666666667,1.74715447154472,2.80894308943089,1.73788617886179,0.492,19.38
+"fi","Finland","Europe","['Finnish', 'Swedish']",5617310,"FIN",NA,NA,NA,NA,NA,0.942,93.51
+"fj","Fiji","Oceania","['English', 'Fijian', 'Hindi', 'Urdu']",928.784,"FJI",NA,NA,NA,NA,NA,0.729,85.22
+"fk","Falkland Islands","South America","['English']",3.47,"FLK",NA,NA,NA,NA,NA,NA,NA
+"fm","Micronesia","Oceania","['English']",526.923,"FSM",NA,NA,NA,NA,NA,0.634,40.54
+"fo","Faroe Islands","Europe","['Faroese']",55400,"FRO",NA,NA,NA,NA,NA,NA,97.58
+"fr","France","Europe","['French']",66548530,"FRA",NA,NA,NA,NA,NA,0.91,86.84
+"ga","Gabon","Africa","['French']",2538952,"GAB",NA,NA,NA,NA,NA,0.693,73.7
+"gb","United Kingdom","Europe","['English']",69138192,"GBR",1.80247859971892,6.83365274051361,3.72518206209276,3.58068225373706,1.93062476044461,0.94,95.34
+"ge","Georgia","Asia","['Georgian']",3807670,"GEO",NA,NA,NA,NA,NA,0.814,81.88
+"gf","French Guiana","South America","['French']",308.522,"GUF",NA,NA,NA,NA,NA,NA,NA
+"gh","Ghana","Africa","['English']",34427414,"GHA",NA,NA,NA,NA,NA,0.602,69.84
+"gi","Gibraltar","Europe","['English']",39.329,"GIB",NA,NA,NA,NA,NA,NA,94.44
+"gm","Gambia","Africa","['English']",2759988,"GMB",NA,NA,NA,NA,NA,0.495,54.19
+"gn","Guinea","Africa","['French', 'Peul']",14754785,"GIN",NA,NA,NA,NA,NA,0.471,33.92
+"gq","Equatorial Guinea","Africa","['Spanish', 'French']",1892516,"GNQ",NA,NA,NA,NA,NA,0.65,66.82
+"gr","Greece","Europe","['Greek']",10047817,"GRC",2.39666666666667,8.28833333333333,4.07,2.45833333333333,1.75233333333333,0.893,85.01
+"gu","Guam","Oceania","['English', 'Chamorro', 'Spanish']",167.777,"GUM",NA,NA,NA,NA,NA,NA,80.51
+"gw","Guinea-Bissau","Africa","['Portuguese']",2201352,"GNB",NA,NA,NA,NA,NA,0.483,31.57
+"gy","Guyana","South America","['English']",831.087,"GUY",NA,NA,NA,NA,NA,0.742,85.32
+"hk","Hong Kong","Asia","['Chinese', 'English']",7414909,"HKG",2.22714859437751,5.38939759036145,4.04674698795181,2.73734939759036,1.8990843373494,0.956,95.61
+"hr","Croatia","Europe","['Croatian']",3875325,"HRV",NA,NA,NA,NA,NA,0.878,83.24
+"hu","Hungary","Europe","['Hungarian']",9676135,"HUN",NA,NA,NA,NA,NA,0.851,91.45
+"id","Indonesia","Asia","['Indonesian']",283487931,"IDN",2.59703125,8.295,4.3753125,3.0703125,1.75175,0.713,69.21
+"ie","Ireland","Europe","['Irish', 'English']",5255017,"IRL",NA,NA,NA,NA,NA,0.95,95.59
+"il","Israel","Asia","['Hebrew', 'Arabic']",9387021,"ISR",NA,NA,NA,NA,NA,0.915,91.85
+"im","Isle of Man","Europe","['English', 'Manx']",84.16,"IMN",NA,NA,NA,NA,NA,NA,NA
+"in","India","Asia","['Hindi', 'English']",1450935791,"IND",2.13022064617809,7.62647754137116,4.75768321513002,2.7919621749409,1.45945626477541,0.644,43.41
+"iq","Iraq","Asia","['Arabic', 'Kurdish']",46042015,"IRQ",2.17194444444444,8.78083333333333,7.13666666666667,1.93333333333333,1.59916666666667,0.673,78.72
+"ir","Iran","Asia","['Persian']",91567738,"IRN",2.21547698465644,6.65977318212141,3.48965977318212,2.74382921947965,0.530753835890594,0.78,81.72
+"is","Iceland","Europe","['Icelandic']",393.396,"ISL",NA,NA,NA,NA,NA,0.959,99.86
+"it","Italy","Europe","['Italian']",59342867,"ITA",NA,NA,NA,NA,NA,0.906,87.03
+"jo","Jordan","Asia","['Arabic']",11552876,"JOR",2.18218343031311,7.90606816292602,2.52285951787199,1.90274314214464,1.61562759767249,0.736,90.5
+"jp","Japan","Asia","['Japanese']",123753041,"JPN",1.73454052722345,6.1840354767184,4.21951219512195,2.62675535846268,1.69563932002956,0.92,84.92
+"ke","Kenya","Africa","['English', 'Swahili']",56432944,"KEN",2.33412322274882,8.37677725118483,3.53633491311216,2.27883096366509,1.69399684044234,0.601,40.81
+"kg","Kyrgyzstan","Asia","['Kyrgyz', 'Russian']",7186009,"KGZ",2.26819444444444,8.54666666666667,4.38416666666667,2.73416666666667,1.68166666666667,0.701,79.77
+"kh","Cambodia","Asia","['Cambodian']",17638801,"KHM",NA,NA,NA,NA,NA,0.6,56.73
+"ki","Kiribati","Oceania","['English']",134.518,"KIR",NA,NA,NA,NA,NA,0.628,54.42
+"km","Comoros","Africa","['Arabic', 'French']",866.628,"COM",NA,NA,NA,NA,NA,0.586,27.34
+"kp","North Korea","Asia","['Korean']",26498823,"PRK",NA,NA,NA,NA,NA,NA,NA
+"kr","South Korea","Asia","['Korean']",51717590,"KOR",2.38781793842035,6.5140562248996,4.74377510040161,3.04899598393574,1.72963855421687,0.929,97.42
+"kw","Kuwait","Asia","['Arabic']",4934507,"KWT",NA,NA,NA,NA,NA,0.847,99.75
+"kz","Kazakhstan","Asia","['Kazakh', 'Russian']",20592571,"KAZ",2.23746081504702,6.69122257053292,4.43965517241379,2.7742946708464,1.76238244514107,0.802,92.88
+"la","Laos","Asia","['Laotian']",7769819,"LAO",NA,NA,NA,NA,NA,0.62,66.15
+"lb","Lebanon","Asia","['Arabic', 'French']",5805962,"LBN",2.41152777777778,7.83333333333333,4.44333333333333,1.9625,1.6295,0.723,90.05
+"li","Liechtenstein","Europe","['German']",39.87,"LIE",NA,NA,NA,NA,NA,0.942,96.8
+"lk","Sri Lanka","Asia","['Sinhalese', 'Tamil']",23103565,"LKA",NA,NA,NA,NA,NA,0.78,50.11
+"lr","Liberia","Africa","['English']",5612817,"LBR",NA,NA,NA,NA,NA,0.487,30.13
+"ls","Lesotho","Africa","['English', 'Southern Sotho']",2337423,"LSO",NA,NA,NA,NA,NA,0.521,47.04
+"lt","Lithuania","Europe","['Lithuanian']",2859110,"LTU",NA,NA,NA,NA,NA,0.879,88.5
+"lu","Luxembourg","Europe","['French', 'German', 'Luxembourgish']",673.036,"LUX",NA,NA,NA,NA,NA,0.927,99.35
+"lv","Latvia","Europe","['Latvian']",1871871,"LVA",NA,NA,NA,NA,NA,0.879,92.19
+"ly","Libya","Africa","['Arabic']",7381023,"LBY",2.28664994425864,8.95484949832776,3.07274247491639,2.22658862876254,1.75401337792642,0.746,88.43
+"ma","Morocco","Africa","['Arabic']",38081173,"MAR",2.46861111111111,7.70333333333333,3.60416666666667,2.86416666666667,1.68566666666667,0.698,89.9
+"mc","Monaco","Europe","['French']",38.631,"MCO",NA,NA,NA,NA,NA,NA,98.38
+"md","Moldova","Europe","['Romanian']",3034961,"MDA",NA,NA,NA,NA,NA,0.763,63.53
+"me","Montenegro","Europe","['Serbian', 'Bosnian', 'Albanian', 'Croatian']",638.479,"MNE",NA,NA,NA,NA,NA,0.844,88.22
+"mg","Madagascar","Africa","['French', 'Malagasy']",31964956,"MDG",NA,NA,NA,NA,NA,0.487,20.58
+"mh","Marshall Islands","Oceania","['English', 'Marshallese']",37.548,"MHL",NA,NA,NA,NA,NA,0.731,73.22
+"mk","North Macedonia","Europe","['Macedonian']",1823009,"MKD",NA,NA,NA,NA,NA,0.765,84.23
+"ml","Mali","Africa","['French']",24478595,"MLI",NA,NA,NA,NA,NA,0.41,33.05
+"mm","Myanmar [Burma]","Asia","['Burmese']",54500091,"MMR",2.41125,7.38083333333333,4.005,2.44,1.247,0.608,NA
+"mn","Mongolia","Asia","['Mongolian']",3475540,"MNG",2.38359788359788,7.6019536019536,4.92979242979243,2.69108669108669,1.70793650793651,0.741,83.91
+"mo","Macao","Asia","['Chinese', 'Portuguese']",720.262,"MAC",2.2148908439231,6.62463343108504,4.01564027370479,3.15542521994135,1.32981427174976,NA,NA
+"mp","Northern Mariana Islands","Oceania","['English', 'Chamorro']",44.278,"MNP",NA,NA,NA,NA,NA,NA,NA
+"mr","Mauritania","Africa","['Arabic']",5169395,"MRT",NA,NA,NA,NA,NA,0.54,44.36
+"mt","Malta","Europe","['Maltese', 'English']",539.607,"MLT",NA,NA,NA,NA,NA,0.915,91.92
+"mu","Mauritius","Africa","['English']",1271169,"MUS",NA,NA,NA,NA,NA,0.796,75.5
+"mv","Maldives","Asia","['Divehi']",527.799,"MDV",2.40311196663458,9.2512030798845,3.91434071222329,2.60538979788258,1.58864292589028,0.762,83.91
+"mw","Malawi","Africa","['English', 'Chichewa']",21655286,"MWI",NA,NA,NA,NA,NA,0.508,18
+"my","Malaysia","Asia","['Malay']",35557673,"MYS",2.31810104087332,7.999238385377,4.1957349581112,2.52475247524752,1.74531607006855,0.807,97.69
+"mz","Mozambique","Africa","['Portuguese']",34631766,"MOZ",NA,NA,NA,NA,NA,0.461,21.21
+"na","Namibia","Africa","['English', 'Afrikaans']",3030131,"NAM",NA,NA,NA,NA,NA,0.61,62.22
+"nc","New Caledonia","Oceania","['French']",292.639,"NCL",NA,NA,NA,NA,NA,NA,82.01
+"ne","Niger","Africa","['French']",27032412,"NER",NA,NA,NA,NA,NA,0.394,16.94
+"ng","Nigeria","Africa","['English']",232679478,"NGA",2.4624090541633,8.72918350848828,3.59822150363783,3.78253839935327,1.71673403395311,0.548,35.46
+"nl","Netherlands","Europe","['Dutch']",18228742,"NLD",1.26542346542347,5.32400932400932,3.94498834498834,2.24382284382284,1.72242424242424,0.946,97.01
+"no","Norway","Europe","['Norwegian', 'Norwegian Bokmål', 'Norwegian Nynorsk']",5576660,"NOR",NA,NA,NA,NA,NA,0.966,99
+"np","Nepal","Asia","['Nepali']",29651054,"NPL",NA,NA,NA,NA,NA,0.601,49.56
+"nr","Nauru","Oceania","['English', 'Nauruan']",11.947,"NRU",NA,NA,NA,NA,NA,0.696,82.67
+"nu","Niue","Oceania","['English']",1.819,"NIU",NA,NA,NA,NA,NA,NA,NA
+"nz","New Zealand","Oceania","['English', 'Maori']",5213944,"NZL",1.48454746136865,4.91106906338694,2.8883632923368,3.46736045411542,1.95780510879849,0.939,95.73
+"om","Oman","Asia","['Arabic']",5281538,"OMN",NA,NA,NA,NA,NA,0.819,95.25
+"pe","Peru","South America","['Spanish']",34217848,"PER",2.8172619047619,9.47714285714286,3.405,3.20714285714286,1.81171428571429,0.762,74.68
+"pf","French Polynesia","Oceania","['French']",281.807,"PYF",NA,NA,NA,NA,NA,NA,72.7
+"pg","Papua New Guinea","Oceania","['English']",10576502,"PNG",NA,NA,NA,NA,NA,0.568,26.99
+"ph","Philippines","Asia","['English']",115843670,"PHL",2.32805555555556,6.7275,4.2775,3.56416666666667,1.80866666666667,0.71,75.21
+"pk","Pakistan","Asia","['English', 'Urdu']",251269164,"PAK",2.3093567251462,8.49022556390977,4.27067669172932,2.60250626566416,1.69203007518797,0.54,32.95
+"pl","Poland","Europe","['Polish']",38539201,"POL",NA,NA,NA,NA,NA,0.881,86.41
+"ps","Palestine","Asia","['Arabic']",5495443,"PSE",NA,NA,NA,NA,NA,0.716,86.64
+"pt","Portugal","Europe","['Portuguese']",10425292,"PRT",NA,NA,NA,NA,NA,0.874,85.79
+"pw","Palau","Oceania","['English']",17.695,"PLW",NA,NA,NA,NA,NA,0.797,NA
+"py","Paraguay","South America","['Spanish', 'Guarani']",6929153,"PRY",NA,NA,NA,NA,NA,0.731,78.09
+"qa","Qatar","Asia","['Arabic']",3048423,"QAT",NA,NA,NA,NA,NA,0.875,100
+"re","Réunion","Africa","['French']",878.591,"REU",NA,NA,NA,NA,NA,NA,NA
+"ro","Romania","Europe","['Romanian']",19015088,"ROU",2.37377353487139,8.36833731105808,2.85680190930788,2.3508353221957,1.71010342084328,0.827,89.2
+"rs","Serbia","Europe","['Serbian']",6736216,"SRB",2.14898024219248,7.87762906309751,3.8546845124283,2.44741873804971,1.60822179732314,0.805,85.36
+"ru","Russia","Europe","['Russian']",144820423,"RUS",2.17458563535912,7.34640883977901,4.1171270718232,2.59889502762431,1.72640883977901,0.821,92.25
+"rw","Rwanda","Africa","['Rwandi', 'English', 'French']",14256567,"RWA",NA,NA,NA,NA,NA,0.548,34.44
+"sa","Saudi Arabia","Asia","['Arabic']",33962757,"SAU",NA,NA,NA,NA,NA,0.875,100
+"sb","Solomon Islands","Oceania","['English']",819.198,"SLB",NA,NA,NA,NA,NA,0.562,44.96
+"sc","Seychelles","Africa","['French', 'English']",130.418,"SYC",NA,NA,NA,NA,NA,0.802,86.67
+"sd","Sudan","Africa","['Arabic', 'English']",50448963,"SDN",NA,NA,NA,NA,NA,0.516,28.7
+"se","Sweden","Europe","['Swedish']",10606999,"SWE",NA,NA,NA,NA,NA,0.952,95.7
+"sg","Singapore","Asia","['English', 'Malay', 'Tamil', 'Chinese']",5832387,"SGP",2.19499668654738,3.43141153081511,3.88568588469185,3.2882703777336,1.9124254473161,0.949,94.29
+"sh","Saint Helena","Africa","['English']",5.237,"SHN",NA,NA,NA,NA,NA,NA,NA
+"si","Slovenia","Europe","['Slovenian']",2118697,"SVN",NA,NA,NA,NA,NA,0.926,90.38
+"sk","Slovakia","Europe","['Slovak']",5506760,"SVK",2.17138888888889,7.64833333333333,3.98,2.48583333333333,1.70133333333333,0.855,87.21
+"sl","Sierra Leone","Africa","['English']",8642022,"SLE",NA,NA,NA,NA,NA,0.458,30.35
+"sm","San Marino","Europe","['Italian']",33.581,"SMR",NA,NA,NA,NA,NA,0.867,85.06
+"sn","Senegal","Africa","['French']",18501984,"SEN",NA,NA,NA,NA,NA,0.517,59.98
+"so","Somalia","Africa","['Somalia', 'Arabic']",19009151,"SOM",NA,NA,NA,NA,NA,0.38,27.6
+"sr","Suriname","South America","['Dutch']",634.431,"SUR",NA,NA,NA,NA,NA,0.69,75.76
+"ss","South Sudan","Africa","['English']",11943408,"SSD",NA,NA,NA,NA,NA,0.381,12.14
+"st","São Tomé and Príncipe","Africa","['Portuguese']",235536,"STP",NA,NA,NA,NA,NA,0.613,NA
+"sy","Syria","Asia","['Arabic']",24672760,"SYR",NA,NA,NA,NA,NA,0.557,35.78
+"td","Chad","Africa","['French', 'Arabic']",20299123,"TCD",NA,NA,NA,NA,NA,0.394,12.18
+"tg","Togo","Africa","['French']",9515236,"TGO",NA,NA,NA,NA,NA,0.547,37.62
+"th","Thailand","Asia","['Thai']",71668011,"THA",2.21588888888889,6.73466666666667,5.176,2.496,1.68506666666667,0.803,89.54
+"tj","Tajikistan","Asia","['Tajik', 'Russian']",10590927,"TJK",2.57388888888889,5.625,4.4175,3.1775,0.634833333333333,0.679,36.09
+"tk","Tokelau","Oceania","['English']",2.506,"TKL",NA,NA,NA,NA,NA,NA,NA
+"tl","East Timor","Oceania","['Portuguese']",1400638,"TLS",NA,NA,NA,NA,NA,0.566,NA
+"tm","Turkmenistan","Asia","['Turkmen', 'Russian']",7494498,"TKM",NA,NA,NA,NA,NA,0.744,21.25
+"tn","Tunisia","Africa","['Arabic']",12277109,"TUN",2.40769867549669,8.08112582781457,2.86920529801325,2.54221854304636,1.41208609271523,0.732,73.84
+"to","Tonga","Oceania","['English', 'Tonga']",104.175,"TON",NA,NA,NA,NA,NA,0.739,57.55
+"tr","Turkey","Asia","['Turkish']",87473805,"TUR",2.29951690821256,6.3175983436853,4.57888198757764,2.08861283643892,1.43246376811594,0.855,NA
+"tv","Tuvalu","Oceania","['English']",9.646,"TUV",NA,NA,NA,NA,NA,0.653,81.19
+"tw","Taiwan","Asia","['Chinese']",23213962,"TWN",2.17307168165713,7.60997547015536,3.36467702371218,3.17089125102208,1.82551103843009,NA,NA
+"tz","Tanzania","Africa","['Swahili', 'English']",68560157,"TZA",NA,NA,NA,NA,NA,0.532,31.89
+"ua","Ukraine","Europe","['Ukrainian']",37860221,"UKR",2.02611843806568,8.08766485647789,3.84018619084562,2.54460822342901,1.45259891388673,0.734,79.22
+"ug","Uganda","Africa","['English', 'Swahili']",50015092,"UGA",NA,NA,NA,NA,NA,0.55,10
+"uy","Uruguay","South America","['Spanish']",3386588,"URY",2.1575,7.576,4.216,3.204,1.97,0.83,89.87
+"uz","Uzbekistan","Asia","['Uzbek', 'Russian']",36361859,"UZB",2.3516,6.168,3.1472,3.0992,1.74864,0.727,89.01
+"ve","Venezuela","South America","['Spanish']",28405543,"VEN",2.54299719887955,8.66050420168067,5.14621848739496,3.09159663865546,1.85714285714286,0.699,61.6
+"vn","Vietnam","Asia","['Vietnamese']",100987686,"VNM",2.27444444444444,7.36916666666667,3.32166666666667,3.37,1.41783333333333,0.726,78.08
+"vu","Vanuatu","Oceania","['Bislama', 'English', 'French']",327.777,"VUT",NA,NA,NA,NA,NA,0.614,69.89
+"wf","Wallis and Futuna","Oceania","['French']",11277,"WLF",NA,NA,NA,NA,NA,NA,NA
+"ws","Samoa","Oceania","['Samoan', 'English']",218.019,"WSM",NA,NA,NA,NA,NA,0.702,75.29
+"ye","Yemen","Asia","['Arabic']",40583164,"YEM",NA,NA,NA,NA,NA,0.424,17.69
+"yt","Mayotte","Africa","['French']",326.505,"MYT",NA,NA,NA,NA,NA,NA,NA
+"za","South Africa","Africa","['Afrikaans', 'English', 'South Ndebele', 'Southern Sotho', 'Swati', 'Tswana', 'Tsonga', 'Venda', 'Xhosa', 'Zulu']",64007187,"ZAF",NA,NA,NA,NA,NA,0.717,74.7
+"zm","Zambia","Africa","['English']",21314956,"ZMB",NA,NA,NA,NA,NA,0.569,31.23
+"zw","Zimbabwe","Africa","['English', 'Shona', 'North Ndebele']",16634373,"ZWE",2.35651577503429,8.48971193415638,4.15720164609053,2.63127572016461,1.73185185185185,0.55,32.56
