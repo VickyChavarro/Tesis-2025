@@ -300,3 +300,42 @@ resultado_verificacion <- data.frame(Idioma = idiomas_a_verificar,
 # Imprimir el resultado
 print(resultado_verificacion)
 
+
+####################### VERIFICACIÓN BD####################
+
+# Cargar las bibliotecas necesarias
+library(dplyr)
+library(readr)
+
+# Leer el archivo de datos
+enriched_world_city_listing_complete <- read_csv("C:/Users/victo/Downloads/enriched-world-city-listing-complete.csv")
+
+# Calcular el número de valores nulos por columna
+nulos_por_columna <- sapply(enriched_world_city_listing_complete, function(x) sum(is.na(x)))
+
+# Imprimir el número de nulos por columna
+print(nulos_por_columna)
+
+
+library(dplyr)
+library(ggplot2)
+
+# Asumiendo que tu DataFrame se llama enriched_world_city_listing_complete
+data_grouped <- enriched_world_city_listing_complete %>%
+  group_by(country, continent) %>%
+  summarise(number_of_cities = n(), .groups = 'drop') %>%
+  arrange(desc(number_of_cities))
+
+# Mostrar los resultados agrupados
+print(data_grouped)
+
+# Visualizar la distribución de ciudades por continente
+ggplot(data_grouped, aes(x = continent, y = number_of_cities, fill = continent)) +
+  geom_bar(stat = "identity") +
+  theme_minimal() +
+  labs(title = "Distribución de Ciudades por Continente",
+       x = "Continente",
+       y = "Número de Ciudades") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
