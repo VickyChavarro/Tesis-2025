@@ -429,3 +429,160 @@ write.csv(country_annotation, "C:/Users/victo/Downloads/country_annotation_with_
 
 # Ver la nueva base de datos
 View(country_annotation) 
+
+
+
+# -------------------- 1. Cargar las bases de datos --------------------
+
+library(readr)
+library(dplyr)
+
+# Leer la base de datos con internet penetration
+country_annotation <- read.csv("C:/Users/victo/Downloads/country_annotation_with_internet_penetration.csv")
+
+# Leer la base de datos del Gini Coefficient
+gini_coefficient <- read.csv("C:/Users/victo/Downloads/gini-coefficient-by-country-2024.csv")
+
+# Seleccionar solo las columnas relevantes
+gini_coefficient <- gini_coefficient %>%
+  select(country, giniCoefficientByCountry_giniWB) %>%
+  rename(name = country, gini_index = giniCoefficientByCountry_giniWB)
+
+# -------------------- 2. Unir la información del Gini Index a country_annotation --------------------
+
+# Unir los datos por el nombre del país (name)
+country_annotation <- country_annotation %>%
+  left_join(gini_coefficient, by = "name")
+
+# -------------------- 3. Verificar los valores NA en la columna gini_index --------------------
+
+# Contar cuántos países tienen NA en gini_index
+num_na_gini <- sum(is.na(country_annotation$gini_index))
+cat("Número total de países sin Gini Index:", num_na_gini, "\n")
+
+# Filtrar los países que tienen NA en gini_index
+countries_with_na_gini <- country_annotation %>%
+  filter(is.na(gini_index)) %>%
+  select(name, B_COUNTRY_ALPHA)
+
+# Imprimir los países con NA en gini_index
+print(countries_with_na_gini)
+
+# -------------------- 4. Guardar la base final --------------------
+
+write.csv(country_annotation, "C:/Users/victo/Downloads/country_annotation_final_with_gini_index.csv", row.names = FALSE)
+
+# Ver la nueva base de datos
+View(country_annotation)
+
+
+
+# -------------------- 1. Cargar las bases de datos --------------------
+
+library(readr)
+library(dplyr)
+
+# Leer la base de datos con el Gini Index
+gini_coefficient <- read.csv("C:/Users/victo/Downloads/gini-coefficient-by-country-2024.csv")
+
+# Seleccionar solo las columnas relevantes
+gini_coefficient <- gini_coefficient %>%
+  select(country, giniCoefficientByCountry_giniWB, giniCoefficientByCountry_giniCIA) %>%
+  rename(name = country, gini_index_WB = giniCoefficientByCountry_giniWB, gini_index_CIA = giniCoefficientByCountry_giniCIA)
+
+# -------------------- 2. Unir la información del Gini Index a country_annotation --------------------
+
+# Unir los datos por el nombre del país (name)
+country_annotation <- country_annotation %>%
+  left_join(gini_coefficient, by = "name")
+
+# -------------------- 3. Rellenar los valores NA en gini_index --------------------
+
+# Si gini_index_WB es NA, tomar el valor de gini_index_CIA
+country_annotation <- country_annotation %>%
+  mutate(gini_index = coalesce(gini_index_WB, gini_index_CIA))
+
+# Eliminar las columnas auxiliares usadas en la fusión
+country_annotation <- country_annotation %>%
+  select(-gini_index_WB, -gini_index_CIA)
+
+# -------------------- 4. Verificar los valores NA en la columna gini_index --------------------
+
+# Contar cuántos países tienen NA en gini_index después de la corrección
+num_na_gini <- sum(is.na(country_annotation$gini_index))
+cat("Número total de países sin Gini Index después de la corrección:", num_na_gini, "\n")
+
+# Filtrar los países que aún tienen NA en gini_index
+countries_with_na_gini <- country_annotation %>%
+  filter(is.na(gini_index)) %>%
+  select(name, B_COUNTRY_ALPHA)
+
+# Imprimir los países con NA en gini_index después de la corrección
+print(countries_with_na_gini)
+
+# -------------------- 5. Guardar la base final --------------------
+
+write.csv(country_annotation, "C:/Users/victo/Downloads/country_annotation_final_with_complete_gini_index.csv", row.names = FALSE)
+
+# Ver la nueva base de datos
+View(country_annotation)
+
+
+
+
+# -------------------- 1. Seleccionar solo las columnas de interés --------------------
+
+# Filtrar solo las preguntas de confianza y el identificador del país
+trust_questions <- WVS_Cross.National_Wave_7_csv_v6_0 %>%
+  select(B_COUNTRY_ALPHA, Q58, Q59, Q60, Q61, Q62, Q63)
+
+# -------------------- 2. Convertir las respuestas a valores numéricos --------------------
+
+trust_questions[, 2:7] <- lapply(trust_questions[, 2:7], as.numeric)
+
+# -------------------- 3. Calcular el Trust Index por país --------------------
+
+trust_index <- trust_questions %>%
+  group_by(B_COUNTRY_ALPHA) %>%
+  summarise(
+    trust_index_in_group = mean(c(Q58, Q59, Q60), na.rm = TRUE),  # In-group trust
+    trust_index_out_group = mean(c(Q61, Q62, Q63), na.rm = TRUE)  # Out-group trust
+  )
+
+# -------------------- 4. Unir los Trust Index a la base country_annotation --------------------
+
+# Unir los datos por B_COUNTRY_ALPHA
+country_annotation <- country_annotation %>%
+  left_join(trust_index, by = "B_COUNTRY_ALPHA")
+
+# -------------------- 5. Verificar los valores asignados --------------------
+
+# Filtrar solo los países que tienen valores de Trust Index asignados
+countries_with_trust <- country_annotation %>%
+  filter(!is.na(trust_index_in_group) & !is.na(trust_index_out_group)) %>%
+  select(name, B_COUNTRY_ALPHA, trust_index_in_group, trust_index_out_group)
+
+# Imprimir los países con valores asignados
+print(countries_with_trust)
+
+# Contar cuántos países tienen valores en ambas columnas
+num_countries_with_trust <- nrow(countries_with_trust)
+cat("Número total de países con Trust Index asignado:", num_countries_with_trust, "\n")
+
+# -------------------- 6. Guardar la base final --------------------
+
+write.csv(country_annotation, "C:/Users/victo/Downloads/country_annotation_with_trust_index.csv", row.names = FALSE)
+
+# Ver la nueva base de datos
+View(country_annotation)
+
+# -------------------- Guardar la base final con Trust Index y Gini Index --------------------
+
+write.csv(country_annotation, "C:/Users/victo/Downloads/country_annotation_final_with_trust_gini.csv", row.names = FALSE)
+
+# Confirmación
+cat("Archivo guardado exitosamente en: C:/Users/victo/Downloads/country_annotation_final_with_trust_gini.csv\n")
+
+# Ver la base de datos final
+View(country_annotation)
+
